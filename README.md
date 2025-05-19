@@ -1,19 +1,17 @@
-## Getting Started
+# 🏞️ Ranking de Miradores de Tenerife
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Aplicación Java que permite gestionar un ranking de miradores valorando: (que bonitos los emojis eh)
+- Limpieza 🧹
+- Vistas 🌄
+- Nivel de tránsito 🚗
 
-## Folder Structure
+## Funcionalidad
+- CRUD completo con interfaz gráfica (`JOptionPane`)
+- Puntuación calculada automáticamente
+- Lista ordenada de mejor a peor
 
-The workspace contains two folders by default, where:
+## Cómo usarlo
+- Ejecuta la clase `Main`
+- Interactúa mediante menús visuales
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-# UD5-Rankingpract1
+➡️ Más info en `/docs/manual_usuario.md`
