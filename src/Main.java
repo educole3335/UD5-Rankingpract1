@@ -5,6 +5,9 @@ import javax.swing.*;
 
 public class Main {
     public static void main(String[] args) {
+        // Añadir miradores iniciales
+        inicializarMiradores();
+
         String opcion;
         do {
             opcion = JOptionPane.showInputDialog(
@@ -25,6 +28,12 @@ public class Main {
                 default -> JOptionPane.showMessageDialog(null, "Opción no válida.");
             }
         } while (!opcion.equalsIgnoreCase("Q"));
+    }
+
+    private static void inicializarMiradores() {
+        GestorMiradores.añadir(new Mirador("Mirador de Humboldt", "Orotava", true, 4, 5));
+        GestorMiradores.añadir(new Mirador("Mirador de La Paz", "Puerto de la Cruz", false, 5, 4));
+        GestorMiradores.añadir(new Mirador("Mirador de Chipeque", "La Orotava", true, 3, 5));
     }
 
     private static void añadir() {
